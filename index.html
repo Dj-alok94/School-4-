@@ -1,0 +1,242 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website-4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Fravashi International Academy</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievments">Achievements</a></li>
+                <li><a href="#whats_new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Admissions Open For 2021 - 22 ***
+            </marquee>
+        </div>
+        <iframe id="video" src="https://www.youtube.com/embed/eB8o95TuMv8"></iframe> 
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campus_life">
+            <h2 class="text-capitalize">Campus life</h2>
+        </div>
+        <div class="row">
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="data:image/jpeg;base64,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">
+                <h4 class="text-capitalize"><kbd>Fravshi International Academy</kbd></h4>
+                <hr>
+                <p class="text-muted">Fravashi International Academy is a Central Board of Secondary Education school located in Dugaon, Nashik, .India. The pre-primary and early years learning programme at CPS is a system where the tenets of Montessori education are scientifically combined with tried and tested teaching methods, focussing on language development and logical thinking, for children to start their first steps into the education system.</p>
+            </div>
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="https://lh3.googleusercontent.com/pk1hCu0ByMdp2J1e8ZKJBw65aDC_xsARXDQR69xXX5BF5a_RugCLXUiafuSU6kEeX8-BTF70F2PfL4SYmh1rHK5JoGJ7217itccsodSrpeHda7_SjRZu-WRi2vd87o3jUjFL-Jg6wdOxMc9Ahk8dFXUNoVSvnDu5BWTsGzSOlAh2UIYJxQUTWWrLodUsW9YHjd12_VjnxPhL2QIwhZp5TTtDWRTQtiZQJjiU6CrZvYGhkqnymOeV7_lkvvouVSXoOMLKQ7grhqL3nJCk_TfWu-64VcRwe8POkUIQQx4gePx97HSPXGQ-0XX9bHg4yawtSLsbXN6wY95t2hxF94SJe8tg9ln2G5w8JPT66kEu0rmhx3iZWtltPC__GXFQ39E9StWmGeP48YWPXIpHEy8iVw03BZtgrNJ3fhK-2NrpmCBI3LuQ8y1dTnHaxWVu2b_DpVq_Ou0Lb5xWqeWGihxKEmCeog8igi5vpSIpXElnywK8b9URm2JrT4hZxIV6hlHxLlwGRm69EFHlLEgYsqDG-xXhRaZGS8d2N-_Qq3__w9Zsh4wtQW9Q-JU0SvaYugfZZ2jb_MjXEPn9NmbhQ6tdogu6CMaf0wj5QWk0EFdQg6xlu4LfMjVxQ_PDTs3YzhFYI6BpKgwHOyVQnmVlZywSUDIootJsHuA1EACp70ov5_wzG-C3804YvA=w999-h588-no">
+                <h4 class="text-capitalize"><kbd>ART CLASSROOM</kbd></h4>
+                <hr>
+                <p class="text-muted">To kindle a conducive learning environment on par with the best institutions worldwide, Fravashi International Academy has spared no effort or investment to ensure that the best infrastructure is made available to students to enable them to pursue their education with ease and comfort.</p>
+            </div>
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="https://www.chennaipublicschool.com/thirumazhisai/images/home_page_image3.jpg">
+                <h4 class="text-capitalize"><kbd>Smart Class – Interactive Digital classroom:</kbd></h4>
+                <hr>
+                <p class="text-muted">Fravshi International Academy was one of the first schools in India to have smart boards in all the classrooms and also a 5.1 theatre system in all classrooms.</p>
+            </div>
+        </div>
+        <div class="page-header" id="achievments">
+            <h2 class="text-capitalize">school achievments</h2>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment1">
+            Future 50 schools shaping success<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="http://nie-images.s3.amazonaws.com/gall_content/2017/11/2017_11$largeimg06_Nov_2017_175117177.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievment_text">
+                <h5 class="text-success text-capitalize">Future 50 schools shaping success
+                </h5>
+                <p>Fravashi International Academy has etched a covetous place as one among the top 50 Schools in India, Shaping Success in the 2017 ranking conducted by the Future 50 - Fortune Magazine. Over 250 schools from 60+ cities all over the country participated in this ranking.</p>
+            </div>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment2">
+            Center of excellence for kids<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://www.chennaipublicschool.com/thirumazhisai/images/Centre%20of%20Excellence3.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-capitalize">Center of excellence for kids
+                </h5>
+                <p>ATAL tinkering labs take CPS one step closer to the vision ‘Cultivate one Million children in India as Neoteric Innovators’.They are the pivots of innovation that foster imagination and creativity in young minds.</p>
+            </div>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment3">
+            Sports & games<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://www.chennaipublicschool.com/thirumazhisai/images/sports.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-capitalize">Sports & games
+                </h5>
+                <p>Students are segregated into four houses namely Alphard House, Canopus House, Diadem House and Plasma House. Intra-mural games and sports are conducted to promote healthy competitions among the four houses where the adrenaline is gushed up as they take part in all events energetically.</p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whats_new">
+            <h2 class="text-capitalize">What's new</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 whats_new_li">
+                <h4>Smart classroom</h4>
+                <img src="https://www.chennaipublicschool.com/thirumazhisai/images/home_page_image3.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    Fravashi International Academy was one of the first schools in India to have smart boards in all the classrooms and also a 5.1 theatre system in all classrooms.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 whats_new_li">
+                <h4>Education through online</h4>
+                <img src="https://www.littlemagictree.com/wp-content/uploads/2020/10/Layer-91.png" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    One of the major parts of learning is the experience gained by spending time with peers going through the same courses. Many people like discussing and learning through group studies.This lack of human Interaction is very prominent in these classes.
+                </p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize">Our Alumni</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_1">
+            <img src="https://chennaipublicschool.com/alumni/upload/20170927103120_Sree%20Theja.png" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">Sree Theja</p>
+        </div>
+        <div class="modal fade" id="alumni_1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Sree Theja</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://chennaipublicschool.com/alumni/upload/20170927103120_Sree%20Theja.png" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal"> Now In Tech Analyst-Morgan Stanly <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_2">
+            <img src="https://chennaipublicschool.com/alumni/upload/1507898006.png" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">Ronak Pradeep</p>
+        </div>
+        <div class="modal fade" id="alumni_2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Ronak Pradeep</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://chennaipublicschool.com/alumni/upload/1507898006.png" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Now In Analyst-RBC <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_3">
+            <img src="https://chennaipublicschool.com/alumni/upload/1507717290.png" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">Raj Mahesh</p>
+        </div>
+        <div class="modal fade" id="alumni_3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Raj Mahesh</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://chennaipublicschool.com/alumni/upload/1507717290.png" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Now InIndian Institute of Science, <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_4">
+            <img src="https://chennaipublicschool.com/alumni/upload/1507717549.png" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">Shri Hari</p>
+        </div>
+        <div class="modal fade" id="alumni_4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Shri Hari</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://chennaipublicschool.com/alumni/upload/1507717549.png" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Now In Indian Institute of Science, <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize">Contact Us</h2>
+        </div>
+        <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.827320716929!2d73.67929671540575!3d20.057674325591666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddee45f168982f%3A0xaf2d11e7282bf9e!2sFravashi%20International%20Academy-%20Best%20International%20School%20in%20Nashik!5e0!3m2!1sen!2sin!4v1631959684281!5m2!1sen!2sin" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="Details">
+            <img src="https://www.fia.edu.in/mobile/images/ms-vijay-chadha-director-academics-fia.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal name: </h3>
+            <h4>Vijay Chadha</h4>
+            <div class="contact_1">
+                <a href="mailto:fravshi2000@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;fravashi2000@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;fravshiinternationalacademy</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;0253</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
